@@ -12,7 +12,7 @@
 }
 
 header {
-  background-image: url(/shared/pictures/header-background.png);
+  background-image: url("/shared/pictures/header-background.png");
 }
 
 .header {
