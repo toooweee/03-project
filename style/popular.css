@@ -1,0 +1,13 @@
+.popular .container {
+  display: flex;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.popular-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

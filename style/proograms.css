@@ -16,10 +16,6 @@
   flex: 1;
 }
 
-.programms-images {
-  flex: 1;
-}
-
 .programs-info-first-p {
   color: #f2be22;
   font-size: 24px;
@@ -43,8 +39,42 @@
 .programs-container {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .programs-nav {
   display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.programs-nav .image-container {
+  width: 50px;
+  height: 50px;
+}
+
+.programms-images {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 120px;
+  margin-bottom: 140px;
+}
+
+.programms-button {
+  color: white;
+  background-color: #1a3e3e;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-top: 40px;
+  padding: 20px 15px;
+  width: 236px;
+  border-radius: 5px;
+}
+
+.programms-button:hover {
+  color: #1a3e3e;
+  background-color: white;
+  border: 1px solid #1a3e3e;
 }

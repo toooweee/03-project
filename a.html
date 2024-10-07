@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card {
+        border: 1px solid #ccc; /* Рамка для карточки */
+        border-radius: 8px; /* Скругление углов */
+        overflow: hidden; /* Скрытие излишков */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для карточки */
+        max-width: 300px; /* Максимальная ширина карточки */
+        margin: 20px; /* Отступы вокруг карточки */
+        transition: transform 0.2s; /* Плавный эффект при наведении */
+        background-image: url(./shared/pictures/header-background.png);
+        height: 500px;
+      }
+
+      .card:hover {
+        transform: scale(1.05); /* Увеличение карточки при наведении */
+      }
+
+      .card-image {
+        width: 100%; /* Ширина изображения на 100% карточки */
+        height: auto; /* Автоматическая высота */
+      }
+
+      .card-content {
+        padding: 15px; /* Отступы внутри карточки */
+        text-align: center; /* Центрирование текста */
+        opacity: 0.5;
+      }
+
+      .card-content h2 {
+        font-size: 20px; /* Размер заголовка */
+        color: #18121e; /* Цвет заголовка */
+        margin: 10px 0; /* Отступы для заголовка */
+      }
+
+      .card-content p {
+        font-size: 16px; /* Размер текста */
+        color: #333; /* Цвет текста */
+        margin: 5px 0; /* Отступы для текста */
+      }
+
+      .card-content .price {
+        font-weight: bold; /* Жирный шрифт для цены */
+        color: #f2be22; /* Цвет для цены */
+      }
+
+      .card-content .rating {
+        color: #f2be22; /* Цвет для рейтинга */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="./shared/pictures/"
+        alt="Описание изображения"
+        class="card-image"
+      />
+      <div class="card-content">
+        <h2>Название изображения</h2>
+        <p>Краткое описание</p>
+        <p class="price">230 $</p>
+        <p class="rating">⭐ 5.0</p>
+      </div>
+    </div>
+  </body>
+</html>
